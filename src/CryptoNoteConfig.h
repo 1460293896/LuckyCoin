@@ -28,8 +28,8 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 60; // change to 10 seconds
-const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
+const uint64_t DIFFICULTY_TARGET                             = 240;
+const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60; // DIFFICULTY_TARGET;
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000; //货币交易的最大字节数限制,用于限制交易数据大小的最大值
@@ -145,7 +145,7 @@ const char     GENESIS_COINBASE_TX_HEX[]                     =
 "21"                                                                // extra length in bytes
 "01"                                                                // extra pubkey tag
 "f904925cc23f86f9f3565188862275dc556a9bdfb6aec22c5aca7f0177c45ba8"; // tx pubkey
-const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.jokercoin.org";
+const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.jokercoin.org"; //checkpoints.jokercoin.org
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -212,7 +212,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const char* const SEED_NODES[] = { 
   "seed1.jokercoin.org:32347",
   "seed2.jokercoin.org:32347",
-  "seed3.jokercoin.org:32347",
+  "seed3.jokercoin.org:32347"
+
 };
 
 } // CryptoNote
