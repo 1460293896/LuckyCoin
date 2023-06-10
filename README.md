@@ -71,6 +71,7 @@ Continue with:
 brew install git cmake boost
 git clone https://github.com/LKCNetwork/LuckyCoin.git
 cd LuckyCoin
+mkdir build
 cd build
 cmake ..
 make
