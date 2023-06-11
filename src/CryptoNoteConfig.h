@@ -162,8 +162,8 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 const int      P2P_DEFAULT_PORT                              =  22347;
-const int      RPC_DEFAULT_PORT                              =  22348;
-const int      RPC_DEFAULT_SSL_PORT                          =  22448;
+const int      RPC_DEFAULT_PORT                              =  32348;
+const int      RPC_DEFAULT_SSL_PORT                          =  32448;
 const int      WALLET_RPC_DEFAULT_PORT                       =  15000;
 const int      WALLET_RPC_DEFAULT_SSL_PORT                   =  15100;
 const int      GATE_RPC_DEFAULT_PORT                         =  16000;
